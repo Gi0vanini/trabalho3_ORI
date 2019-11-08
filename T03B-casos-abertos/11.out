@@ -1,0 +1,375 @@
+**********************EXCLUIR*********************
+OPERACAO REALIZADA COM SUCESSO!
+Registro MBDJ010519 inserido com sucesso.
+
+********************************BUSCAR********************************
+Registro(s) nao encontrado!
+********************************LISTAR********************************
+[0] ECKY071103 GGKB250708 LFSJ210803 MBDJ010519
+[1] ABSG200220 LFVM170711
+[2] AFWE240311 BSLN101214 EAGR060302
+[3] RDKA070713
+[4] SCYW190503
+[5] BYPI090206
+[6]
+[7] ACHO211109 EMUH211217 PXPU081000 RFFW060410
+[8] ESHQ191100 GSBZ050300 JHSV160515 JSUR091120
+[9]
+[10] FAMD090101 LWND141201 TAQC190312
+[11]
+[12]
+[13]
+[14] EOBY191107
+[15]
+[16]
+[17]
+[18] AKUU230814
+[19]
+[20] LBMG170608
+[21]
+[22] AALO131103 LQWK150922
+[23]
+[24]
+[25] JMTL041120 LWHD030301 MYAB180704
+[26]
+[27] FUAD150505 LLAA190501 LPBB241020
+[28] JHKM040120
+[29]
+[30]
+[31] GXRG060201
+[32]
+[33]
+[34]
+[35]
+[36]
+[37] MJBI080913
+[38]
+[39]
+[40] JTFC210205
+[41] LFRQ250702
+[42] PAPD121112
+********************************BUSCAR********************************
+Registro(s) nao encontrado!
+Registro AQAL250813 inserido com sucesso.
+
+********************************BUSCAR********************************
+ESHQ191100
+EVELYN DOS SANTOS
+M
+13/04/1990
+(16) 81906-3864
+CORSA
+SHQ-4534
+19/11/19
+00:19
+182.13
+1
+JUNDIAI, LORENA, OSASCO, RIO DE JANEIRO, SAO PAULO, SAO ROQUE, SOROCABA
+********************************BUSCAR********************************
+EAGR060302
+EDUARDO COSTA
+M
+20/03/1994
+(68) 58446-3289
+UNO
+AGR-9836
+06/03/19
+02:20
+131.24
+4
+COTIA, OSASCO, RIO DE JANEIRO, SAO JOSE DOS CAMPOS, SAO PAULO, SOROCABA
+********************************BUSCAR********************************
+PAPD121112
+PABLO VITTAR
+F
+20/08/1995
+(53) 32541-4741
+HB20
+APD-4736
+12/11/19
+12:46
+154.43
+2
+COTIA, JUNDIAI, LORENA, OSASCO, RIO DE JANEIRO, SAO JOSE DOS CAMPOS, SAO PAULO, SAO ROQUE, SOROCABA, TAUBATE
+********************************BUSCAR********************************
+EAGR060302
+EDUARDO COSTA
+M
+20/03/1994
+(68) 58446-3289
+UNO
+AGR-9836
+06/03/19
+02:20
+131.24
+4
+COTIA, OSASCO, RIO DE JANEIRO, SAO JOSE DOS CAMPOS, SAO PAULO, SOROCABA
+**********************EXCLUIR*********************
+OPERACAO REALIZADA COM SUCESSO!
+Registro GKTK120211 inserido com sucesso.
+
+Registro LUVF080405 inserido com sucesso.
+
+********************************LISTAR********************************
+[0] ECKY071103 LFSJ210803 MBDJ010519
+[1] ABSG200220 LFVM170711
+[2] AFWE240311 BSLN101214 EAGR060302
+[3] RDKA070713
+[4] SCYW190503
+[5] BYPI090206
+[6]
+[7] ACHO211109 EMUH211217 PXPU081000 RFFW060410
+[8] ESHQ191100 GKTK120211 GSBZ050300 JHSV160515 JSUR091120
+[9]
+[10] FAMD090101 LWND141201 TAQC190312
+[11]
+[12]
+[13]
+[14] EOBY191107
+[15]
+[16]
+[17]
+[18] AKUU230814
+[19]
+[20] LBMG170608
+[21]
+[22] AALO131103 LQWK150922
+[23] LUVF080405
+[24]
+[25] JMTL041120 LWHD030301 MYAB180704
+[26]
+[27] FUAD150505 LLAA190501 LPBB241020
+[28] JHKM040120
+[29]
+[30]
+[31] GXRG060201
+[32] AQAL250813
+[33]
+[34]
+[35]
+[36]
+[37] MJBI080913
+[38]
+[39]
+[40] JTFC210205
+[41] LFRQ250702
+[42] PAPD121112
+********************************ALTERAR*******************************
+OPERACAO REALIZADA COM SUCESSO!
+********************************BUSCAR********************************
+LFRQ250702
+LETICIA OLIVEIRA FERREIRA
+M
+19/01/1991
+(34) 19632-3053
+CELTA
+FRQ-0150
+25/07/19
+02:04
+074.02
+4
+COTIA, OSASCO, RIO DE JANEIRO, SAO JOSE DOS CAMPOS, SOROCABA
+Registro AVUO021118 inserido com sucesso.
+
+********************************ALTERAR*******************************
+OPERACAO REALIZADA COM SUCESSO!
+********************************LISTAR********************************
+[0] ECKY071103 LFSJ210803 MBDJ010519
+[1] ABSG200220 LFVM170711
+[2] AFWE240311 BSLN101214 EAGR060302
+[3] RDKA070713
+[4] SCYW190503
+[5] BYPI090206
+[6]
+[7] ACHO211109 EMUH211217 PXPU081000 RFFW060410
+[8] ESHQ191100 GKTK120211 GSBZ050300 JHSV160515 JSUR091120
+[9]
+[10] FAMD090101 LWND141201 TAQC190312
+[11]
+[12]
+[13]
+[14] EOBY191107
+[15]
+[16]
+[17]
+[18] AKUU230814
+[19]
+[20] LBMG170608
+[21]
+[22] AALO131103 LQWK150922
+[23] LUVF080405
+[24]
+[25] JMTL041120 LWHD030301 MYAB180704
+[26]
+[27] FUAD150505 LLAA190501 LPBB241020
+[28] JHKM040120
+[29]
+[30]
+[31] GXRG060201
+[32] AQAL250813
+[33]
+[34]
+[35]
+[36]
+[37] AVUO021118 MJBI080913
+[38]
+[39]
+[40] JTFC210205
+[41] LFRQ250702
+[42] PAPD121112
+********************************ALTERAR*******************************
+OPERACAO REALIZADA COM SUCESSO!
+**********************EXCLUIR*********************
+OPERACAO REALIZADA COM SUCESSO!
+**********************EXCLUIR*********************
+Registro(s) nao encontrado!
+FALHA AO REALIZAR OPERACAO!
+**********************EXCLUIR*********************
+Registro(s) nao encontrado!
+FALHA AO REALIZAR OPERACAO!
+Registro GZKU190513 inserido com sucesso.
+
+Registro LDHE040322 inserido com sucesso.
+
+**********************EXCLUIR*********************
+OPERACAO REALIZADA COM SUCESSO!
+********************************BUSCAR********************************
+FAMD090101
+FATIMA BERNARDES
+M
+20/11/1996
+(62) 61319-2485
+CIVIC
+AMD-9121
+09/01/19
+01:42
+207.91
+1
+COTIA, JUNDIAI, LORENA, SAO JOSE DOS CAMPOS, SAO ROQUE, TAUBATE
+**********************EXCLUIR*********************
+OPERACAO REALIZADA COM SUCESSO!
+********************************LISTAR********************************
+[0] ECKY071103 LFSJ210803 MBDJ010519
+[1] ABSG200220 LFVM170711
+[2] AFWE240311 BSLN101214 EAGR060302
+[3] RDKA070713
+[4] SCYW190503
+[5] BYPI090206
+[6]
+[7] ACHO211109 EMUH211217 PXPU081000 RFFW060410
+[8] ESHQ191100 GKTK120211 GSBZ050300 JHSV160515 JSUR091120
+[9]
+[10] FAMD090101 LWND141201 TAQC190312
+[11]
+[12]
+[13]
+[14] EOBY191107
+[15]
+[16]
+[17]
+[18] AKUU230814
+[19]
+[20] LBMG170608
+[21]
+[22] AALO131103 LQWK150922
+[23] LUVF080405
+[24]
+[25] JMTL041120 LWHD030301 MYAB180704
+[26]
+[27] FUAD150505 LLAA190501 LPBB241020
+[28] JHKM040120
+[29]
+[30]
+[31] GXRG060201 GZKU190513
+[32] AQAL250813
+[33]
+[34]
+[35]
+[36]
+[37] AVUO021118 MJBI080913
+[38]
+[39]
+[40]
+[41] LFRQ250702
+[42]
+********************************BUSCAR********************************
+LWHD030301
+LETICIA CARRARA
+M
+16/12/1996
+(22) 51399-1954
+UNO
+WHD-9427
+03/03/19
+01:48
+240.45
+2
+COTIA, JUNDIAI, LORENA, OSASCO, SAO ROQUE
+********************************BUSCAR********************************
+LWHD030301
+LETICIA CARRARA
+M
+16/12/1996
+(22) 51399-1954
+UNO
+WHD-9427
+03/03/19
+01:48
+240.45
+2
+COTIA, JUNDIAI, LORENA, OSASCO, SAO ROQUE
+Registro PFIG190403 inserido com sucesso.
+
+Registro PNGV060722 inserido com sucesso.
+
+********************************BUSCAR********************************
+LWND141201
+LETICIA FERREIRA DOS SANTOS
+M
+09/05/1991
+(77) 97168-5449
+CORSA
+WND-6762
+14/12/19
+01:22
+126.76
+3
+COTIA, JUNDIAI, LORENA, OSASCO, RIO DE JANEIRO, SAO JOSE DOS CAMPOS, SAO PAULO, SAO ROQUE, SOROCABA, TAUBATE
+Registro RRCH180611 inserido com sucesso.
+
+Registro AWTC210222 inserido com sucesso.
+
+Registro RTHB230403 inserido com sucesso.
+
+**********************EXCLUIR*********************
+OPERACAO REALIZADA COM SUCESSO!
+********************************BUSCAR********************************
+JHSV160515
+JULIANA MENDES
+F
+12/06/1998
+(90) 87279-4655
+COROLLA
+HSV-7700
+16/05/19
+15:49
+234.95
+4
+COTIA, JUNDIAI, LORENA, OSASCO, SAO PAULO, SOROCABA
+********************************ALTERAR*******************************
+OPERACAO REALIZADA COM SUCESSO!
+********************************BUSCAR********************************
+LBMG170608
+LAVINIE DIAS
+M
+02/10/1998
+(67) 24341-2935
+CELTA
+BMG-0823
+17/06/19
+08:31
+209.32
+3
+COTIA, JUNDIAI, LORENA, SAO JOSE DOS CAMPOS, SAO PAULO, SAO ROQUE, SOROCABA
+********************************ARQUIVO*******************************
+*|BRIEL NAO SOU FAKE@F@12/03/1996@(73) 85612-9243@UNO@GKB-9402@COTIA|JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@25/07/19@08:06@122.45@2@#####################################################################JULIANA PAES@M@09/12/1999@(84) 31262-7878@UNO@SUR-2184@COTIA|JUNDIAI|OSASCO|RIO DE JANEIRO|SAO PAULO|TAUBATE@09/11/19@20:20@073.11@2@###########################################################################################################################PABLO PICASSO@M@05/04/1990@(73) 19472-2151@UNO@XPU-8179@COTIA|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|TAUBATE@08/10/19@00:36@139.68@2@#################################################################################################################BRUNA MARQUEZINE@M@05/09/1989@(27) 33801-7335@GOL@SLN-0914@COTIA|LORENA|SAO JOSE DOS CAMPOS|SAO PAULO|SOROCABA@10/12/19@14:51@159.74@1@#########################################################################################################################JULIANA MENDES@F@12/06/1998@(90) 87279-4655@COROLLA@HSV-7700@COTIA|JUNDIAI|LORENA|OSASCO|SAO PAULO|SOROCABA@16/05/19@15:49@234.95@4@############################################################################################################################FATIMA BERNARDES@M@20/11/1996@(62) 61319-2485@CIVIC@AMD-9121@COTIA|JUNDIAI|LORENA|SAO JOSE DOS CAMPOS|SAO ROQUE|TAUBATE@09/01/19@01:42@207.91@1@################################################################################################################ALEXANDRE O MEDIO@F@22/11/1999@(62) 59101-8458@FIT@CHO-6545@JUNDIAI|LORENA|RIO DE JANEIRO|SAO PAULO|SAO ROQUE@21/11/19@09:33@008.55@3@##########################################################################################################################ALEXANDRE O MAIS OU MENOS@M@04/01/1999@(96) 04585-3923@CORSA@ALO-5896@COTIA|JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@13/11/19@03:55@001.28@1@##############################################################ALEXANDRE O MEDIO@M@04/07/1990@(16) 06770-6276@FUSCA@FWE-6145@LORENA|RIO DE JANEIRO@24/03/19@11:07@189.12@4@####################################################################################################################################################*|LIANA MENDES@M@05/01/1989@(76) 97338-3457@COROLLA@TFC-6936@JUNDIAI|LORENA|OSASCO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE@21/02/19@05:11@216.93@3@#############################################################################################################MATEUS ALVES@M@22/07/1999@(18) 39470-8756@CIVIC@YAB-3148@COTIA|JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@18/07/19@04:30@248.89@1@###########################################################################*|BERT DOWNEY JUNIOR F :(@M@16/10/1993@(52) 19673-6444@ONIX@QSG-5392@COTIA|LORENA|OSASCO|SOROCABA@18/08/19@10:25@226.74@3@######################################################################################################################################LETICIA FERREIRA DOS SANTOS@M@09/05/1991@(77) 97168-5449@CORSA@WND-6762@COTIA|JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@14/12/19@01:22@126.76@3@############################################################ROBERT PATTINSON@M@06/01/1989@(16) 78666-7808@HB20@DKA-6315@JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SOROCABA@07/07/19@13:20@015.68@1@##########################################################################################################GABRIELA ALVEZ@F@01/10/1998@(60) 07744-6769@HB20@XRG-4896@COTIA|JUNDIAI|SAO JOSE DOS CAMPOS|SAO ROQUE|SOROCABA@06/02/19@01:13@236.18@3@#########################################################################################################################*|LIPE COUTINHO@F@24/02/1989@(63) 79199-1307@FOX@UAD-9528@JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA@15/05/19@05:46@058.68@1@########################################################################################*|BLO VITTAR@F@20/08/1995@(53) 32541-4741@HB20@APD-4736@COTIA|JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@12/11/19@12:46@154.43@2@############################################################################JULIANA MENDES@M@07/11/1994@(19) 04713-2079@ONIX@HKM-2534@COTIA|OSASCO|SAO PAULO|SAO ROQUE@04/01/19@20:17@243.58@3@#############################################################################################################################################ALEXANDRE O CHEGA NE@F@22/06/1995@(59) 73607-3971@COROLLA@BSG-3452@JUNDIAI|LORENA@20/02/19@20:53@069.60@3@######################################################################################################################################################BRUNA MARQUEZINE@M@13/10/1989@(28) 53185-1550@ONIX@YPI-0078@COTIA|JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@09/02/19@06:36@178.60@2@########################################################################EVELYN DOS SANTOS@M@27/10/1993@(34) 06401-7083@CELTA@OBY-0329@COTIA|JUNDIAI|RIO DE JANEIRO|SOROCABA|TAUBATE@19/11/19@07:33@240.32@4@############################################################################################################################TATIANA MONTEIRO@M@18/01/1996@(58) 82104-5516@COROLLA@AQC-7454@COTIA|JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@19/03/19@12:41@181.89@2@#####################################################################ALEXANDRE O GRANDE@M@19/12/1995@(53) 16868-8942@ONIX@KUU-3934@COTIA|JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@23/08/19@14:19@108.88@2@######################################################################SABRINA SATO@F@27/09/1995@(33) 07620-3497@FIT@CYW-3113@JUNDIAI|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SOROCABA@19/05/19@03:28@073.58@4@#############################################################################################################################ROBERT NORMAL@F@04/03/1989@(71) 26110-0495@ONIX@FFW-2110@COTIA|JUNDIAI|SAO JOSE DOS CAMPOS|SOROCABA@06/04/19@10:39@186.77@2@####################################################################################################################################EVELYN DOS SANTOS@M@13/04/1990@(16) 81906-3864@CORSA@SHQ-4534@JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO PAULO|SAO ROQUE|SOROCABA@19/11/19@00:19@182.13@1@########################################################################################################LETICIA OLIVEIRA FERREIRA@M@03/08/1992@(14) 23699-9456@UNO@FVM-2958@SAO PAULO|SOROCABA@17/07/19@11:35@215.71@3@#################################################################################################################################################LETICIA CARRARA@M@16/12/1996@(22) 51399-1954@UNO@WHD-9427@COTIA|JUNDIAI|LORENA|OSASCO|SAO ROQUE@03/03/19@01:48@240.45@2@########################################################################################################################################LETICIA OLIVEIRA FERREIRA@M@19/01/1991@(34) 19632-3053@CELTA@FRQ-0150@COTIA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SOROCABA@25/07/19@02:04@074.02@4@#########################################################################################################GABRIEL NAO SOU FAKE@F@27/06/1999@(95) 05517-4037@ONIX@SBZ-9170@LORENA|RIO DE JANEIRO@05/03/19@00:38@034.16@2@##################################################################################################################################################EVELYN DOS SANTOS@F@08/09/1993@(40) 32249-6658@CIVIC@MUH-0404@LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA@21/12/19@17:31@136.64@2@############################################################################################LETICIA FERREIRA DA SILVA@M@01/11/1997@(44) 87832-6935@CORSA@PBB-8385@JUNDIAI|SOROCABA@24/10/19@20:14@017.01@3@#################################################################################################################################################LAVINIE DIAS@M@21/11/1990@(55) 25495-7392@CORSA@FSJ-5963@JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA@21/08/19@03:16@052.79@2@#########################################################################################EDUARDO COSTA@M@20/03/1994@(68) 58446-3289@UNO@AGR-9836@COTIA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SOROCABA@06/03/19@02:20@131.24@4@#############################################################################################################LAVINIE DIAS@M@02/10/1998@(67) 24341-2935@CELTA@BMG-0823@COTIA|JUNDIAI|LORENA|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA@17/06/19@08:31@209.32@3@#########################################################################################################LAVINIE DIAS@M@04/06/1991@(66) 48644-3811@GOL@LAA-2400@COTIA|JUNDIAI|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@19/05/19@01:47@106.51@2@####################################################################################EDUARDO COSTA@M@22/09/1990@(45) 89249-1568@CIVIC@CKY-2207@COTIA|JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@07/11/19@03:54@165.08@3@##########################################################################MATHEUS ROCHA@M@27/04/1996@(48) 73479-2932@CORSA@JBI-6753@LORENA|RIO DE JANEIRO|SAO ROQUE|TAUBATE@08/09/19@13:11@206.93@1@######################################################################################################################################LETICIA CARRARA@F@23/05/1998@(29) 63137-5229@FOX@QWK-4097@COTIA|JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA@15/09/19@22:09@119.18@1@##################################################################################JULIA ANDRADE@M@14/03/1994@(04) 51128-6376@COROLLA@MTL-6123@COTIA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SOROCABA|TAUBATE@04/11/19@20:27@132.43@2@###########################################################################################################MATEUS ALVES@M@27/04/1989@(96) 56894-3622@CIVIC@BDJ-2979@COTIA|JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@01/05/19@19:15@035.50@3@###########################################################################ALEXANDRE O CHEGA NE@M@02/08/1999@(37) 94396-6192@UNO@QAL-9931@LORENA|SOROCABA@25/08/19@13:37@153.05@4@#########################################################################################################################################################GABRIELA ALVEZ@F@22/03/1992@(21) 44576-5152@CIVIC@KTK-2147@COTIA|JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@12/02/19@11:18@034.14@1@#########################################################################LETICIA FERREIRA DOS SANTOS@F@10/04/1991@(44) 21855-3008@ONIX@UVF-8737@OSASCO|SAO PAULO|SAO ROQUE|SOROCABA@08/04/19@05:16@095.53@1@#############################################################################################################################ALEXANDRE O GIGANTESCO@F@17/07/1989@(75) 34195-3753@TORO@VUO-6327@JUNDIAI|SAO JOSE DOS CAMPOS|SAO PAULO|SOROCABA|TAUBATE@02/11/19@18:55@191.56@1@###############################################################################################################GABRIEL EL ANGEL@M@06/05/1997@(16) 67536-3090@HB20@ZKU-8447@OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO ROQUE|SOROCABA|TAUBATE@19/05/19@13:13@094.73@2@#######################################################################################################*|VINIE DIAS@F@24/05/1996@(63) 54255-4310@CELTA@DHE-7342@LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@04/03/19@22:15@229.76@1@#########################################################################################PABLO PICASSO@M@08/12/1996@(30) 56474-5953@COROLLA@FIG-4463@COTIA|LORENA|OSASCO|SOROCABA@19/04/19@03:05@002.21@4@###############################################################################################################################################PABLO PICASSO@M@07/01/1996@(34) 60771-7806@FIT@NGV-0467@JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@06/07/19@22:19@047.25@1@##################################################################################ROBERT PATTINSON@F@18/07/1995@(46) 48391-2536@FOX@RCH-7196@JUNDIAI|LORENA|RIO DE JANEIRO|SAO JOSE DOS CAMPOS@18/06/19@11:18@141.29@2@###########################################################################################################################ALEXANDRE O GIGANTESCO@M@15/04/1999@(75) 04277-1142@COROLLA@WTC-9018@JUNDIAI|LORENA@21/02/19@22:31@112.59@3@####################################################################################################################################################ROBERT DOWNEY JUNIOR F :(@M@18/11/1993@(96) 91045-4860@HB20@THB-3747@COTIA|JUNDIAI|LORENA|OSASCO|RIO DE JANEIRO|SAO JOSE DOS CAMPOS|SAO PAULO|SAO ROQUE|SOROCABA|TAUBATE@23/04/19@03:22@117.02@3@###############################################################

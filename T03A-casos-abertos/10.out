@@ -1,0 +1,434 @@
+********************************LISTAR********************************
+[0] Ocupado: MYAB180704
+[1] Ocupado: RQSG180810
+[2] Ocupado: PAPD121112
+[3] Ocupado: ABSG200220
+[4] Ocupado: JMTL041120
+[5] Ocupado: GXRG060201
+[6] Livre
+[7] Ocupado: AKUU230814
+[8] Livre
+[9] Ocupado: ACHO211109
+[10] Livre
+[11] Ocupado: MJBI080913
+[12] Ocupado: FAMD090101
+[13] Ocupado: LQWK150922
+[14] Livre
+[15] Livre
+[16] Livre
+[17] Ocupado: LFSJ210803
+[18] Ocupado: ECKY071103
+[19] Livre
+[20] Livre
+[21] Livre
+[22] Ocupado: BYPI090206
+[23] Livre
+[24] Ocupado: AALO131103
+[25] Ocupado: RFFW060410
+[26] Ocupado: ESHQ191100
+[27] Ocupado: LWHD030301
+[28] Ocupado: GSBZ050300
+[29] Ocupado: FUAD150505
+[30] Ocupado: JHKM040120
+[31] Ocupado: EOBY191107
+[32] Ocupado: LLAA190501
+[33] Livre
+[34] Livre
+[35] Livre
+[36] Ocupado: SCYW190503
+[37] Livre
+[38] Livre
+[39] Livre
+[40] Livre
+[41] Livre
+[42] Livre
+[43] Livre
+[44] Livre
+[45] Ocupado: GGKB250708
+[46] Livre
+[47] Ocupado: BSLN101214
+[48] Ocupado: AFWE240311
+[49] Ocupado: RDKA070713
+[50] Ocupado: EAGR060302
+[51] Livre
+[52] Ocupado: EMUH211217
+[53] Livre
+[54] Livre
+[55] Ocupado: LWND141201
+[56] Ocupado: TAQC190312
+[57] Ocupado: LPBB241020
+[58] Ocupado: LFRQ250702
+[59] Livre
+[60] Livre
+[61] Ocupado: LFVM170711
+[62] Livre
+[63] Livre
+[64] Livre
+[65] Ocupado: LBMG170608
+[66] Livre
+[67] Ocupado: PXPU081000
+[68] Ocupado: JSUR091120
+[69] Ocupado: JHSV160515
+[70] Ocupado: JTFC210205
+********************************ALTERAR*******************************
+Registro(s) nao encontrado!
+FALHA AO REALIZAR OPERACAO!
+********************************ALTERAR*******************************
+OPERACAO REALIZADA COM SUCESSO!
+********************************ALTERAR*******************************
+OPERACAO REALIZADA COM SUCESSO!
+**********************EXCLUIR*********************
+OPERACAO REALIZADA COM SUCESSO!
+********************************ALTERAR*******************************
+Registro(s) nao encontrado!
+FALHA AO REALIZAR OPERACAO!
+********************************BUSCAR********************************
+EAGR060302
+EDUARDO COSTA
+M
+20/03/1994
+(68) 58446-3289
+UNO
+AGR-9836
+06/03/19
+02:20
+131.24
+4
+COTIA, OSASCO, RIO DE JANEIRO, SAO JOSE DOS CAMPOS, SAO PAULO, SOROCABA
+**********************EXCLUIR*********************
+OPERACAO REALIZADA COM SUCESSO!
+Registro GUUI010813 inserido com sucesso. Numero de colisoes: 0.
+
+Registro MWVX260421 inserido com sucesso. Numero de colisoes: 0.
+
+********************************ALTERAR*******************************
+Registro(s) nao encontrado!
+FALHA AO REALIZAR OPERACAO!
+**********************EXCLUIR*********************
+OPERACAO REALIZADA COM SUCESSO!
+Registro JNCV191012 inserido com sucesso. Numero de colisoes: 2.
+
+Registro EFBI211115 inserido com sucesso. Numero de colisoes: 3.
+
+Registro GACZ121204 inserido com sucesso. Numero de colisoes: 4.
+
+**********************EXCLUIR*********************
+OPERACAO REALIZADA COM SUCESSO!
+********************************ALTERAR*******************************
+OPERACAO REALIZADA COM SUCESSO!
+Registro GFVT130420 inserido com sucesso. Numero de colisoes: 1.
+
+Registro PQZN061219 inserido com sucesso. Numero de colisoes: 0.
+
+********************************LISTAR********************************
+[0] Ocupado: MYAB180704
+[1] Ocupado: RQSG180810
+[2] Ocupado: PAPD121112
+[3] Ocupado: ABSG200220
+[4] Removido
+[5] Ocupado: GXRG060201
+[6] Livre
+[7] Ocupado: AKUU230814
+[8] Livre
+[9] Ocupado: ACHO211109
+[10] Livre
+[11] Ocupado: MJBI080913
+[12] Ocupado: FAMD090101
+[13] Ocupado: LQWK150922
+[14] Livre
+[15] Livre
+[16] Livre
+[17] Ocupado: LFSJ210803
+[18] Ocupado: ECKY071103
+[19] Ocupado: JNCV191012
+[20] Livre
+[21] Livre
+[22] Ocupado: BYPI090206
+[23] Livre
+[24] Ocupado: AALO131103
+[25] Ocupado: RFFW060410
+[26] Ocupado: ESHQ191100
+[27] Removido
+[28] Ocupado: GSBZ050300
+[29] Ocupado: FUAD150505
+[30] Ocupado: JHKM040120
+[31] Removido
+[32] Ocupado: LLAA190501
+[33] Livre
+[34] Ocupado: GUUI010813
+[35] Livre
+[36] Ocupado: SCYW190503
+[37] Ocupado: GFVT130420
+[38] Livre
+[39] Livre
+[40] Livre
+[41] Livre
+[42] Livre
+[43] Livre
+[44] Ocupado: MWVX260421
+[45] Ocupado: GGKB250708
+[46] Livre
+[47] Ocupado: BSLN101214
+[48] Ocupado: AFWE240311
+[49] Ocupado: RDKA070713
+[50] Ocupado: EAGR060302
+[51] Ocupado: EFBI211115
+[52] Ocupado: EMUH211217
+[53] Ocupado: GACZ121204
+[54] Livre
+[55] Ocupado: LWND141201
+[56] Ocupado: TAQC190312
+[57] Ocupado: LPBB241020
+[58] Ocupado: LFRQ250702
+[59] Ocupado: PQZN061219
+[60] Livre
+[61] Ocupado: LFVM170711
+[62] Livre
+[63] Livre
+[64] Livre
+[65] Ocupado: LBMG170608
+[66] Livre
+[67] Ocupado: PXPU081000
+[68] Ocupado: JSUR091120
+[69] Ocupado: JHSV160515
+[70] Removido
+**********************EXCLUIR*********************
+OPERACAO REALIZADA COM SUCESSO!
+Registro ATYF200222 inserido com sucesso. Numero de colisoes: 1.
+
+********************************ALTERAR*******************************
+Registro(s) nao encontrado!
+FALHA AO REALIZAR OPERACAO!
+********************************LISTAR********************************
+[0] Ocupado: MYAB180704
+[1] Ocupado: RQSG180810
+[2] Ocupado: PAPD121112
+[3] Ocupado: ABSG200220
+[4] Removido
+[5] Ocupado: GXRG060201
+[6] Livre
+[7] Ocupado: AKUU230814
+[8] Livre
+[9] Ocupado: ACHO211109
+[10] Livre
+[11] Ocupado: MJBI080913
+[12] Ocupado: FAMD090101
+[13] Ocupado: LQWK150922
+[14] Livre
+[15] Livre
+[16] Livre
+[17] Ocupado: LFSJ210803
+[18] Ocupado: ECKY071103
+[19] Ocupado: JNCV191012
+[20] Livre
+[21] Livre
+[22] Ocupado: BYPI090206
+[23] Livre
+[24] Ocupado: AALO131103
+[25] Ocupado: RFFW060410
+[26] Ocupado: ESHQ191100
+[27] Removido
+[28] Ocupado: GSBZ050300
+[29] Ocupado: FUAD150505
+[30] Ocupado: JHKM040120
+[31] Removido
+[32] Ocupado: LLAA190501
+[33] Livre
+[34] Ocupado: GUUI010813
+[35] Livre
+[36] Removido
+[37] Ocupado: GFVT130420
+[38] Livre
+[39] Livre
+[40] Livre
+[41] Livre
+[42] Livre
+[43] Livre
+[44] Ocupado: MWVX260421
+[45] Ocupado: GGKB250708
+[46] Livre
+[47] Ocupado: BSLN101214
+[48] Ocupado: AFWE240311
+[49] Ocupado: RDKA070713
+[50] Ocupado: EAGR060302
+[51] Ocupado: EFBI211115
+[52] Ocupado: EMUH211217
+[53] Ocupado: GACZ121204
+[54] Ocupado: ATYF200222
+[55] Ocupado: LWND141201
+[56] Ocupado: TAQC190312
+[57] Ocupado: LPBB241020
+[58] Ocupado: LFRQ250702
+[59] Ocupado: PQZN061219
+[60] Livre
+[61] Ocupado: LFVM170711
+[62] Livre
+[63] Livre
+[64] Livre
+[65] Ocupado: LBMG170608
+[66] Livre
+[67] Ocupado: PXPU081000
+[68] Ocupado: JSUR091120
+[69] Ocupado: JHSV160515
+[70] Removido
+Registro MFPW210809 inserido com sucesso. Numero de colisoes: 1.
+
+********************************LISTAR********************************
+[0] Ocupado: MYAB180704
+[1] Ocupado: RQSG180810
+[2] Ocupado: PAPD121112
+[3] Ocupado: ABSG200220
+[4] Removido
+[5] Ocupado: GXRG060201
+[6] Livre
+[7] Ocupado: AKUU230814
+[8] Livre
+[9] Ocupado: ACHO211109
+[10] Livre
+[11] Ocupado: MJBI080913
+[12] Ocupado: FAMD090101
+[13] Ocupado: LQWK150922
+[14] Livre
+[15] Livre
+[16] Livre
+[17] Ocupado: LFSJ210803
+[18] Ocupado: ECKY071103
+[19] Ocupado: JNCV191012
+[20] Livre
+[21] Livre
+[22] Ocupado: BYPI090206
+[23] Livre
+[24] Ocupado: AALO131103
+[25] Ocupado: RFFW060410
+[26] Ocupado: ESHQ191100
+[27] Removido
+[28] Ocupado: GSBZ050300
+[29] Ocupado: FUAD150505
+[30] Ocupado: JHKM040120
+[31] Removido
+[32] Ocupado: LLAA190501
+[33] Livre
+[34] Ocupado: GUUI010813
+[35] Livre
+[36] Removido
+[37] Ocupado: GFVT130420
+[38] Livre
+[39] Livre
+[40] Livre
+[41] Livre
+[42] Livre
+[43] Livre
+[44] Ocupado: MWVX260421
+[45] Ocupado: GGKB250708
+[46] Livre
+[47] Ocupado: BSLN101214
+[48] Ocupado: AFWE240311
+[49] Ocupado: RDKA070713
+[50] Ocupado: EAGR060302
+[51] Ocupado: EFBI211115
+[52] Ocupado: EMUH211217
+[53] Ocupado: GACZ121204
+[54] Ocupado: ATYF200222
+[55] Ocupado: LWND141201
+[56] Ocupado: TAQC190312
+[57] Ocupado: LPBB241020
+[58] Ocupado: LFRQ250702
+[59] Ocupado: PQZN061219
+[60] Livre
+[61] Ocupado: LFVM170711
+[62] Ocupado: MFPW210809
+[63] Livre
+[64] Livre
+[65] Ocupado: LBMG170608
+[66] Livre
+[67] Ocupado: PXPU081000
+[68] Ocupado: JSUR091120
+[69] Ocupado: JHSV160515
+[70] Removido
+********************************BUSCAR********************************
+ATYF200222
+ALEXANDRE O MAIS OU MENOS
+M
+22/09/1990
+(17) 34178-4858
+CIVIC
+TYF-2831
+20/02/19
+22:33
+077.42
+2
+LORENA, OSASCO, SOROCABA
+********************************LISTAR********************************
+[0] Ocupado: MYAB180704
+[1] Ocupado: RQSG180810
+[2] Ocupado: PAPD121112
+[3] Ocupado: ABSG200220
+[4] Removido
+[5] Ocupado: GXRG060201
+[6] Livre
+[7] Ocupado: AKUU230814
+[8] Livre
+[9] Ocupado: ACHO211109
+[10] Livre
+[11] Ocupado: MJBI080913
+[12] Ocupado: FAMD090101
+[13] Ocupado: LQWK150922
+[14] Livre
+[15] Livre
+[16] Livre
+[17] Ocupado: LFSJ210803
+[18] Ocupado: ECKY071103
+[19] Ocupado: JNCV191012
+[20] Livre
+[21] Livre
+[22] Ocupado: BYPI090206
+[23] Livre
+[24] Ocupado: AALO131103
+[25] Ocupado: RFFW060410
+[26] Ocupado: ESHQ191100
+[27] Removido
+[28] Ocupado: GSBZ050300
+[29] Ocupado: FUAD150505
+[30] Ocupado: JHKM040120
+[31] Removido
+[32] Ocupado: LLAA190501
+[33] Livre
+[34] Ocupado: GUUI010813
+[35] Livre
+[36] Removido
+[37] Ocupado: GFVT130420
+[38] Livre
+[39] Livre
+[40] Livre
+[41] Livre
+[42] Livre
+[43] Livre
+[44] Ocupado: MWVX260421
+[45] Ocupado: GGKB250708
+[46] Livre
+[47] Ocupado: BSLN101214
+[48] Ocupado: AFWE240311
+[49] Ocupado: RDKA070713
+[50] Ocupado: EAGR060302
+[51] Ocupado: EFBI211115
+[52] Ocupado: EMUH211217
+[53] Ocupado: GACZ121204
+[54] Ocupado: ATYF200222
+[55] Ocupado: LWND141201
+[56] Ocupado: TAQC190312
+[57] Ocupado: LPBB241020
+[58] Ocupado: LFRQ250702
+[59] Ocupado: PQZN061219
+[60] Livre
+[61] Ocupado: LFVM170711
+[62] Ocupado: MFPW210809
+[63] Livre
+[64] Livre
+[65] Ocupado: LBMG170608
+[66] Livre
+[67] Ocupado: PXPU081000
+[68] Ocupado: JSUR091120
+[69] Ocupado: JHSV160515
+[70] Removido
+**********************EXCLUIR*********************
+OPERACAO REALIZADA COM SUCESSO!
