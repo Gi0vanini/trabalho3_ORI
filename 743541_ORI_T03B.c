@@ -3,7 +3,7 @@
  * Disciplina: Organizacao e Recuperacao da Informacao
  * Prof. Tiago A. Almeida
  *
- * Trabalho 03A - Hashing com reespalhamento linear
+ * Trabalho 03B - Hashing com encadeamento
  *
  * RA: 743541
  * Aluno: Giovanni Marçon Rossi
@@ -35,15 +35,6 @@
 #define MAX_REGISTROS 1000
 #define TAM_ARQUIVO (MAX_REGISTROS * TAM_REGISTRO + 1)
 
-#define POS_OCUPADA "[%d] Ocupado: %s\n"
-#define POS_LIVRE "[%d] Livre\n"
-#define POS_REMOVIDA "[%d] Removido\n"
-
-/* Estado das posições da tabela hash */
-#define LIVRE 0
-#define OCUPADO 1
-#define REMOVIDO 2
-
 /* Saídas do usuário */
 #define OPCAO_INVALIDA "Opcao invalida!\n"
 #define MEMORIA_INSUFICIENTE "Memoria insuficiente!\n"
@@ -56,11 +47,9 @@
 #define INICIO_ALTERACAO "********************************ALTERAR*******************************\n"
 #define INICIO_ARQUIVO "********************************ARQUIVO*******************************\n"
 #define INICIO_EXCLUSAO "**********************EXCLUIR*********************\n"
-
 #define SUCESSO "OPERACAO REALIZADA COM SUCESSO!\n"
 #define FALHA "FALHA AO REALIZAR OPERACAO!\n"
-#define ERRO_TABELA_CHEIA "ERRO: Tabela Hash esta cheia!\n\n"
-#define REGISTRO_INSERIDO "Registro %s inserido com sucesso. Numero de colisoes: %d.\n\n"
+#define REGISTRO_INSERIDO "Registro %s inserido com sucesso.\n\n"
 
 /* Registro da Carona */
 typedef struct
@@ -80,19 +69,20 @@ typedef struct
 } Carona;
 
 /* Registro da Tabela Hash
- * Contém o estado da posição, a chave primária e o RRN do respectivo registro */
-typedef struct
+ * Contém a chave primária, o RRN do registro atual e o ponteiro para o próximo
+ * registro. */
+typedef struct chave
 {
-	int estado;
 	char pk[TAM_PRIMARY_KEY];
 	int rrn;
+	struct chave *prox;
 } Chave;
 
 /* Estrutura da Tabela Hash */
 typedef struct
 {
 	int tam;
-	Chave *v;
+	Chave **v;
 } Hashtable;
 
 /* Variáveis globais */
@@ -176,7 +166,7 @@ short hash(const char *chave, int tam);
 void criar_carona(Carona *novo);
 
 /* Insere uma carona na tabela Hash */
-int inserir_carona(Hashtable *tabela, Carona *nova);
+void inserir_carona(Hashtable *tabela, Carona *nova);
 
 
 /* BUSCAS */
@@ -190,15 +180,13 @@ int buscar_iprimary(Hashtable *tabela, char *pk);
 /* Remove um registro da tabela hash */
 void remover_iprimary(Hashtable *tabela, char *pk);
 
-/* Função feita para ser usada na remoção */
-int buscar_pos_iprimary(Hashtable *tabela, char *pk);
-
 
 /* ==========================================================================
  * ============================ FUNÇÃO PRINCIPAL ============================
  * =============================== NÃO ALTERAR ============================== */
 int main()
 {
+
 	/* Arquivo */
 	int carregarArquivo = nregistros = 0;
 	scanf("%d%*c", &carregarArquivo); // 1 (sim) | 0 (nao)
@@ -212,8 +200,7 @@ int main()
 
 	Hashtable tabela;
 	criar_tabela(&tabela, tam);
-
-	if(carregarArquivo)
+	if (carregarArquivo)
 		carregar_tabela(&tabela);
 
 	/* Execução do programa */
@@ -228,10 +215,7 @@ int main()
 				break;
 			case 2:
 				printf(INICIO_ALTERACAO);
-				if (alterar(tabela))
-					printf(SUCESSO);
-				else
-					printf(FALHA);
+				printf("%s", (alterar(tabela)) ? SUCESSO : FALHA);
 				break;
 			case 3:
 				printf(INICIO_BUSCA);
@@ -239,10 +223,7 @@ int main()
 				break;
 			case 4:
 				printf(INICIO_EXCLUSAO);
-				if (remover(&tabela))
-					printf(SUCESSO);
-				else
-					printf(FALHA);
+				printf("%s", (remover(&tabela)) ? SUCESSO : FALHA);
 				break;
 			case 5:
 				printf(INICIO_LISTAGEM);
@@ -262,6 +243,7 @@ int main()
 	}
 	return 0;
 }
+
 
 /* ==========================================================================
  * ================================= FUNÇÕES ================================
@@ -378,27 +360,22 @@ void gerarChave(Carona *novo){
 void cadastrar(Hashtable *tabela){
 	Carona nova;
 	int rrn;
-	int colisoes;
 
 	criar_carona(&nova);
 
 	rrn = buscar_iprimary(tabela, nova.pk);
 
 	if(rrn == -1){
-		colisoes = inserir_carona(tabela, &nova);
+		inserir_carona(tabela, &nova);
 
-		if(colisoes != -1){
-			printf(REGISTRO_INSERIDO, nova.pk, colisoes);
+		printf(REGISTRO_INSERIDO, nova.pk);
 
-			char buffer[TAM_REGISTRO + 1];
-			char *pos_arq = ARQUIVO + (nregistros * TAM_REGISTRO);	//Coloca o ponteiro para onde o registro será inserido no arquivo de dados
-			construir_buffer(buffer, &nova);
-			strncpy(pos_arq, buffer, (TAM_REGISTRO + 1));
+		char buffer[TAM_REGISTRO + 1];
+		char *pos_arq = ARQUIVO + (nregistros * TAM_REGISTRO);	//Coloca o ponteiro para onde o registro será inserido no arquivo de dados
+		construir_buffer(buffer, &nova);
+		strncpy(pos_arq, buffer, (TAM_REGISTRO + 1));
 
-			nregistros++;
-		}else
-			printf(ERRO_TABELA_CHEIA);
-
+		nregistros++;
 	}else
 		printf(ERRO_PK_REPETIDA, nova.pk);
 
@@ -500,23 +477,32 @@ int remover(Hashtable *tabela){
 
 /* Imprime a tabela Hash */
 void imprimir_tabela(Hashtable tabela){
+	Chave *atual;
 	
 	for(int i = 0; i < tabela.tam; i++){
-		if(tabela.v[i].estado == OCUPADO)
-			printf("[%d] Ocupado: %s\n", i, tabela.v[i].pk);
-		else if(tabela.v[i].estado == LIVRE)
-			printf("[%d] Livre\n", i);
-		else
-			printf("[%d] Removido\n", i);
+		printf("[%d]", i);
+		atual = tabela.v[i];
+		if(atual != NULL){
+			while(atual->prox != NULL){
+				printf(" %s", atual->pk);
+				atual = atual->prox;
+			}
+			printf(" %s", atual->pk);
+		}
+		printf("\n");
 	}
 
 	return;
 }
 
-/* Libera o espaço ocupado pela tabela */
+/* Libera a Tabela Hash */
 void liberar_tabela(Hashtable *tabela){
+	Chave *aux1, *aux2, *aux3;
+	short i;
+	for (i = 0, aux1 = tabela->v[i]; i < tabela->tam; aux1 = tabela->v[++i])
+		for (aux2 = aux1; aux2; aux3 = aux2, aux2 = aux2->prox, free(aux3), aux3 = NULL)
+			;
 	free(tabela->v);
-	tabela->v = NULL;
 }
 
 /* ==========================================================================
@@ -526,12 +512,14 @@ void liberar_tabela(Hashtable *tabela){
 /* Cria uma nova tabela hash */
 void criar_tabela(Hashtable *tabela, int tam){
 	tabela->tam = tam;
-	tabela->v = (Chave *)malloc(sizeof(Chave)*tam);
+	tabela->v = (Chave**)malloc(sizeof(Chave*)*tam);
 
 	for(int i = 0; i < tam; i++)
-		tabela->v[i].estado = LIVRE;
+		tabela->v[i] = NULL;
 
 	return;
+
+
 }
 
 /* Carrega os registros do arquivo de dados e os insere na tabela Hash */
@@ -543,28 +531,53 @@ void carregar_tabela(Hashtable *tabela){
 
 		inserir_carona_aux(tabela, &atual, i);
 	}
+
+	return;
 }
 
 /* Função auxiliar para a inserção dos registros na criação da tabela */
 /* Assume que a tabela hash nunca estará cheia */
 void inserir_carona_aux(Hashtable *tabela, Carona *nova, int rrn){
 	int pos;
+	Chave *atual;
+	Chave *proximo;
+
+	Chave *novo;
+	novo = (Chave*)malloc(sizeof(Chave));
+
+	strcpy(novo->pk, nova->pk);
+	novo->prox = NULL;
+	novo->rrn = rrn;
 
 	pos = hash(nova->pk, tabela->tam);
 
-	while(1){
-		
-		if(tabela->v[pos].estado != OCUPADO){	// Caso a posição acessada não esteja ocupada
-			strcpy(tabela->v[pos].pk, nova->pk);
-			tabela->v[pos].rrn = rrn;
-			tabela->v[pos].estado = OCUPADO;
+	atual = tabela->v[pos];
+	if(atual == NULL){
+		tabela->v[pos] = novo;
+		return;
+	}
 
-			break;
-		}else{									// Caso a piseção acessada esteja coupada
-			pos++;
+	proximo = atual->prox;
 
-			if(pos == tabela->tam)		// Caso a posição acessada seja a última
-				pos = 0;
+	if(strcmp(atual->pk, novo->pk) > 0){
+		tabela->v[pos] = novo;
+		novo->prox = atual;
+		return;
+	}else{
+		while(1){
+			if(proximo == NULL){
+				atual->prox = novo;
+				return;
+			}
+			
+			if(strcmp(proximo->pk, novo->pk) > 0){
+				atual->prox = novo;
+				novo->prox = proximo;
+				return;
+			}
+
+			atual = atual->prox;
+			proximo = atual->prox;
 		}
 	}
 
@@ -687,35 +700,49 @@ void criar_carona(Carona *novo){
 }
 
 /* Insere uma carona na tabela Hash */
-/* Retorna o núemro de colisões caso tenha inserido o registro */
-/* Caso a tabela esteja cheia, não insere o registro na tabela e retorna -1 */
-int inserir_carona(Hashtable *tabela, Carona *nova){
+void inserir_carona(Hashtable *tabela, Carona *nova){
 	int pos;
-	int coli = 0;
+	Chave *atual;
+	Chave *proximo;
+
+	Chave *novo;
+	novo = (Chave*)malloc(sizeof(Chave));
+
+	strcpy(novo->pk, nova->pk);
+	novo->prox = NULL;
+	novo->rrn = nregistros;
 
 	pos = hash(nova->pk, tabela->tam);
 
-	while(1){
-		
-		if(tabela->v[pos].estado != OCUPADO){	// Caso a posição acessada esteja livre ou removida
-			strcpy(tabela->v[pos].pk, nova->pk);
-			tabela->v[pos].rrn = nregistros;
-			tabela->v[pos].estado = OCUPADO;
-
-			break;
-		}else{									// Caso a piseção acessada esteja coupada
-			pos++;
-			coli++;
-
-			if(pos == tabela->tam)		// Caso a posição acessada seja a última
-				pos = 0;
-
-			if(coli == tabela->tam)		// Caso a tabela esteja cheia
-				return -1;
-		}
+	atual = tabela->v[pos];
+	if(atual == NULL){
+		tabela->v[pos] = novo;
+		return;
 	}
 
-	return coli;
+	proximo = atual->prox;
+
+	if(strcmp(atual->pk, novo->pk) > 0){
+		tabela->v[pos] = novo;
+		novo->prox = atual;
+		return;
+	}else{
+		while(1){
+			if(proximo == NULL){
+				atual->prox = novo;
+				return;
+			}
+			
+			if(strcmp(proximo->pk, novo->pk) > 0){
+				atual->prox = novo;
+				novo->prox = proximo;
+				return;
+			}
+
+			atual = atual->prox;
+			proximo = atual->prox;
+		}
+	}
 }
 
 /* ==========================================================================
@@ -727,34 +754,26 @@ int inserir_carona(Hashtable *tabela, Carona *nova){
 /* Retorna -1 caso o registro não exista */
 int buscar_iprimary(Hashtable *tabela, char *pk){
 	int pos;
-	int inicio;
-	int flag = 0;
+	Chave *atual;
 
 	pos = hash(pk, tabela->tam);
-	inicio = pos;
 
-	while(1){
-		if(pos == tabela->tam)
-			pos = 0;
-		
-		if(pos == inicio && flag == 1)
+	atual = tabela->v[pos];
+
+	if(atual != NULL){
+		while(atual->prox != NULL){
+			if(strcmp(atual->pk, pk) == 0)
+				return atual->rrn;
+			
+			atual = atual->prox;
+		}
+
+		if(strcmp(atual->pk, pk) == 0)
+			return atual->rrn;
+		else
 			return -1;
-
-		if(tabela->v[pos].estado != LIVRE){
-			flag = 1;
-			if(tabela->v[pos].estado == OCUPADO){
-				
-				if(strcmp(pk, tabela->v[pos].pk) == 0)
-					return tabela->v[pos].rrn;
-				else
-					pos++;
-
-			}else
-				pos++;
-
-		}else
-			return -1;
-	}
+	}else
+		return -1;
 }
 
 /* ==========================================================================
@@ -764,44 +783,27 @@ int buscar_iprimary(Hashtable *tabela, char *pk){
 /* Remove um registro da tabela hash */
 void remover_iprimary(Hashtable *tabela, char *pk){
 	int pos;
-
-	pos = buscar_pos_iprimary(tabela, pk);
-
-	tabela->v[pos].estado = REMOVIDO;
-
-	return;	
-}
-
-/* Função feita para ser usada na remoção */
-/* Retorna a posição da tabela onde pk se encontra */
-int buscar_pos_iprimary(Hashtable *tabela, char *pk){
-	int pos;
-	int inicio;
-	int flag = 0;
+	Chave *atual;
+	Chave *proximo;
 
 	pos = hash(pk, tabela->tam);
-	inicio = pos;
+
+	atual = tabela->v[pos];
+	proximo = atual->prox;
+	
+	if(strcmp(atual->pk, pk) == 0){
+		tabela->v[pos] = proximo;
+		free(atual);
+		return;
+	}
 
 	while(1){
-		if(pos == tabela->tam)
-			pos = 0;
-		
-		if(pos == inicio && flag == 1)
-			return -1;
-
-		if(tabela->v[pos].estado != LIVRE){
-			flag = 1;
-			if(tabela->v[pos].estado == OCUPADO){
-				
-				if(strcmp(pk, tabela->v[pos].pk) == 0)
-					return pos;
-				else
-					pos++;
-
-			}else
-				pos++;
-
-		}else
-			return -1;
+		if(strcmp(proximo->pk, pk) == 0){
+			atual->prox = proximo->prox;
+			free(proximo);
+			return;
+		}
+		atual = atual->prox;
+		proximo = atual->prox;
 	}
 }
